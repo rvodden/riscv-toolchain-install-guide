@@ -5,6 +5,10 @@ freestanding RISC-V Assembler and C/C++ programs.
 Note this repository is mainly a set links to the submodules and versions that I use as 
 described below.
 
+## More sample code
+
+I have a REPO with a series of stand-alone applications intended to be used for tutorial videos that I hope to make some day.  In there you fill find interrupt handlers, virtual memory, and more: [rv32-tutorials](https://github.com/johnwinans/rv32-tutorials)
+
 ## YouTube videos discussing the use of QEMU and these test programs:
 
 - [Installation and Setup](https://youtu.be/iWQRV-KJ7tQ)
