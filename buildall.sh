@@ -19,11 +19,11 @@ echo "Installing into: $INSTALL_DIR"
 # configure and build gcc & friends
 cd riscv-gnu-toolchain
 ./configure --prefix=$INSTALL_DIR --with-arch=rv32i --with-multilib-generator="rv32i-ilp32--;rv32ima-ilp32--;rv32imafd-ilp32--"
-make -j
+make -j 10
 
 
 # configure and build qemu
 cd ../qemu
 ./configure --target-list=riscv32-softmmu --prefix=$INSTALL_DIR
-make -j
+make -j 10
 make install

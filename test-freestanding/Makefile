@@ -3,6 +3,7 @@ include $(TOP)/Make.rules
 
 LDLIBS=-lc -lgcc
 CFLAGS+=-O2
+CFLAGS+=-march=rv32i_zicsr
 
 #LDFLAGS+=-Wl,--no-relax
 LDFLAGS+=-Wl,-T,vanilla.ld
